@@ -1,0 +1,25 @@
+/* NavBar.css */
+nav {
+    background-color: #5d1e1e;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+  }
+  
+  nav a:not(:last-child) {
+    margin-right: 1rem;
+  }
+  
