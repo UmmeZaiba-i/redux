@@ -8,6 +8,7 @@ import Example from "../components/Example";
 import Example1 from "../components/Example1";
 import Example2 from "../components/Example2";
 import Example3 from "../components/Example3";
+import EllipsisSelect from "../components/EllipsisSelect";
 
 export const router = createBrowserRouter([
     {
@@ -45,6 +46,10 @@ export const router = createBrowserRouter([
             {
                 path:'/example3',
                 element: <Example3/>
+            },
+            {
+                path:'/ellipsis',
+                element: <EllipsisSelect/>
             },
         ]
     },

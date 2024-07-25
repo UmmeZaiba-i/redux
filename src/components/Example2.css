@@ -1,3 +1,35 @@
-.custom-dropdown .ant-picker-dropdown {
-    display: none;
+.ant-picker-dropdown {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.custom-dropdown .ant-picker-panel {
+  /* background-color: #fefcfc !important;  */
+  border-radius: 0px !important; /* Add border radius */
+  /* box-shadow: none !important; Add box shadow */
+}
+.custom-dropdown .ant-picker-range-arrow{
+  display: none !important;
+}
+
+.custom-dropdown .ant-picker-panel-container .ant-picker-panel {
+  box-shadow: none !important; /* Ensure no box shadow */
+}
+
+.custom-dropdown .ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+  border-color: #cc7e51 !important; /* Change border color for today's date */
+}
+
+.custom-dropdown .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner {
+  background-color: #52d52e !important; /* Change background color for selected date */
+}
+
+:where(.css-dev-only-do-not-override-98ntnt).ant-picker-dropdown .ant-picker-panel-container {
+  box-shadow: 0 20px 10px -10px rgba(0, 0, 0, 0.1); 
+  border-radius: 0px;
+  
+}
+:where(.css-dev-only-do-not-override-98ntnt).ant-picker-dropdown{
+  margin-left: 289px !important;
+  left: -1px !important;
+  padding: 0px !important;
 }

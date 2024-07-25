@@ -13,6 +13,7 @@ export default function NavBar() {
         {/* <Link to='/example1'>Example1</Link> */}
         <Link to='/example2'>Example2</Link>
         <Link to='/example3'>Example3</Link>
+        <Link to='/ellipsis'>Ellipsis</Link>
       </nav>
       <br />
       <Outlet />
